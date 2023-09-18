@@ -15,5 +15,4 @@ app.use(express.json());
 
 app.use("/openai", openaiRoute);
 
-app.listen(3000, async () => {
-});
+app.listen(8080, async () => {});
